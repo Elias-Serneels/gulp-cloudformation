@@ -4,7 +4,7 @@
 
 import { obj } from 'through2'
 import log from 'fancy-log'
-import File from 'Vinyl'
+import File from 'vinyl'
 import { Observable } from 'rx-lite'
 import { basename, extname } from 'path'
 
