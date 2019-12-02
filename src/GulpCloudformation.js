@@ -3,7 +3,8 @@
 //-------------------------------------------------------------------------------
 
 import { obj } from 'through2'
-import { File, log } from 'gulp-util'
+import log from 'fancy-log'
+import File from 'Vinyl'
 import { Observable } from 'rx-lite'
 import { basename, extname } from 'path'
 
